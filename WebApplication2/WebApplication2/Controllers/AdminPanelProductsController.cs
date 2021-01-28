@@ -28,7 +28,7 @@ namespace WebApplication2.Controllers
         [HttpGet("admin/product")]
         public IActionResult Index()
         {
-            if (User.Identity.IsAuthenticated && User.Identity.Name == "kalishvlad3@gmail.com")
+            if (User.Identity.IsAuthenticated && User.Identity.Name == "")
             {
                 string query2 = @"select id,CategoryId,Name,price,description from dbo.Product";
 
