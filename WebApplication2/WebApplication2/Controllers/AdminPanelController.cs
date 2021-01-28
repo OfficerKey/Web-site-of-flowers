@@ -25,7 +25,7 @@ namespace WebApplication2.Controllers
         
         public IActionResult Index()
         {
-            if(User.Identity.IsAuthenticated && User.Identity.Name== "kalishvlad3@gmail.com")
+            if(User.Identity.IsAuthenticated && User.Identity.Name== "m")
             {
                 return View();
 
