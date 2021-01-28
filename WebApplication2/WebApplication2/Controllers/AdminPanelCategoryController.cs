@@ -25,7 +25,7 @@ namespace WebApplication2.Controllers
 
         public IActionResult Delete(int id)
         {
-            if (User.Identity.IsAuthenticated && User.Identity.Name == "kalishvlad3@gmail.com")
+            if (User.Identity.IsAuthenticated && User.Identity.Name == "m")
             {
                 string query = @"Delete from dbo.Category where id=" + id + "";
                 DataTable table = new DataTable();
